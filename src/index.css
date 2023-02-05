@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;500;700&family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-default: 'Josefin Sans', sans-serif;
+    --font-card: 'Readex Pro', sans-serif;
+    --font-strong: 600;
+    --font-normal: 400;
+
+    --box-shadow: 5px 4px 10px 0px #00000040;
+    --gradient-box: linear-gradient(116.79deg,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0) 99.45%);
+    --blur: blur(36px);
+    --color-bg: linear-gradient(252.44deg, #d8b5ff 0%, #1eae98 100%);
+    --color-text: #FFFDFA;
+    --color-subtext: #4D5E81;
+}

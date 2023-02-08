@@ -1,0 +1,26 @@
+.sukmav2__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: var(--gradient-box);
+    box-shadow: var(--box-shadow);
+
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+}
+
+.sukmav2__footer-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15em;
+}
+
+.sukmav2__footer p,
+.sukmav2__footer h1 {
+    font-family: var(--font-card);
+}

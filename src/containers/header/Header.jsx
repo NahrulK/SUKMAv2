@@ -1,13 +1,10 @@
 import React, { Suspense } from "react";
 import "./header.css";
-import Images from "./../../components/img/Images";
+import { Images } from "./../../components";
 
 // images
 
-import leftBanner from "./../../assets/bann-left.png";
-import rightBanner from "./../../assets/bann-right.png";
-import cool from "./../../assets/cool.png";
-import kind from "./../../assets/kind.png";
+import { BannLeft, BannRight, Cool, Kind } from "../../assets";
 
 const Header = () => {
   return (
@@ -31,14 +28,14 @@ const Header = () => {
             <div className="sukmav2__header-content_right-top-circle">
               <Suspense fallback={<div>Loading...</div>}>
                 <Images
-                  src={leftBanner}
+                  src={BannLeft}
                   className={"sukmav2__header-content_right-top-image"}
                 />
               </Suspense>
             </div>
             <Suspense fallback={<div>Loading...</div>}>
               <Images
-                src={cool}
+                src={Cool}
                 className={"sukmav2__header-content_right-top-buble"}
               />
             </Suspense>
@@ -47,7 +44,7 @@ const Header = () => {
           <div className="sukmav2__header-content_right-bottom">
             <Suspense fallback={<div>Loading...</div>}>
               <Images
-                src={kind}
+                src={Kind}
                 className={"sukmav2__header-content_right-bottom-buble"}
               />
             </Suspense>
@@ -55,7 +52,7 @@ const Header = () => {
             <div className="sukmav2__header-content_right-bottom-circle">
               <Suspense fallback={<div>Loading...</div>}>
                 <Images
-                  src={rightBanner}
+                  src={BannRight}
                   className={"sukmav2__header-content_right-bottom-image"}
                 />
               </Suspense>

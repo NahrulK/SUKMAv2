@@ -1,1 +1,9 @@
 export { default as Navbar } from "./navbar/Navbar";
+export { default as Slideaction } from "./slideaction/Slideaction";
+export { default as Statuscard } from "./statuscard/Statuscard";
+export { default as Card } from "./card/Card";
+export { default as Images } from "./img/Images";
+export { default as Cat } from "./cat/Cat";
+export { default as TextArea } from "./textArea/TextArea";
+export { default as Input } from "./input/Input";
+export { default as Button } from "./button/Button";

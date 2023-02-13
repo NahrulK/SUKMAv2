@@ -1,0 +1,10 @@
+export const BannLeft = require("./bann-left.png");
+export const BannRight = require("./bann-right.png");
+export const Cool = require("./cool.png");
+export const Cyber = require("./cyber.png");
+export const Fisik = require("./fisik.png");
+export const Sex = require("./sex.png");
+export const Verbal = require("./verbal.png");
+export const Kind = require("./kind.png");
+export const LoginAvatar = require("./login.png");
+export const Vector = require("./vector.png");
